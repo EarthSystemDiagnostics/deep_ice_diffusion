@@ -4,8 +4,6 @@
 
 library(PaleoSpec)
 
-setwd('/Users/fshaw/Desktop/Diffusion_Length_Estimate_Manuscript/Final Submission/Final Code')
-
 #Function for simulating a timeseries with the same gaps spectral parameters, gaps and non-equidistant age as input data
 sim_real <- function(data, alpha, beta){
   
