@@ -4,8 +4,6 @@ library(tidyverse)
 library(cmdstanr)
 library(dplyr)
 
-setwd('/Users/fshaw/Desktop/Diffusion_Length_Estimate_Manuscript/Final Submission/Final Code')
-
 find_spec <- function(x, d18O, smooth = NULL){
   
   reg_x <- seq(x[1], x[length(x)], length.out = length(x))
