@@ -7,8 +7,6 @@ library(gridExtra)
 library(bayesplot)
 library(RColorBrewer)
 
-setwd('/Users/fshaw/Desktop/Diffusion_Length_Estimate_Manuscript/Final Submission/Final Code')
-
 # Data --------------------------------------------------------------------
 
 #Load Dome C data as a tibble
